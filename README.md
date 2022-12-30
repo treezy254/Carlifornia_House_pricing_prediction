@@ -2,7 +2,7 @@
 House pricing prediction for the state of Carlifornia in the year 1994
 
 ## 1. Frame the Problem
---------------------
+
 
 Quizzes:
 	? Business objective
@@ -12,7 +12,7 @@ Quizzes:
 
 
 ### Pipelines
---------------
+
 A sequence of data processing components is called a data pipeline.
 
 Pipelines are very common in ML systems since there is a lot of data to manipulate and many data transformations to apply
@@ -21,7 +21,6 @@ Components typically run asynchronously. Each component pulls in a large amount 
 
 
 ## 2. Select a Performance Measure
----------------------------------
 A typical performance measure for regression problem is the Root Means Square Error(RMSE)
 
 Even though the RMSE is generally the preferred performance measure for regression tasks, in some conaxts you may prefer to use another function, such as Mean Absolute Error(also called Averaage Absolute Deviation)
@@ -36,28 +35,23 @@ Various distance measures or norms, are possible:
 
 
 ## 3. Check the Assumptions
--------------------------------
 Lastly its good to lsit and verify the assumptions that were made so far (by you or others); this can catch some serrious issues early on.
 
 
 ## 4. Get The Data
-------------------
 	- create the workspace
 	- Download the data
 	- Take a Quick look at the Data Struture
 	- Create a Test Set
 
 ## 5. Discover and Visualize the Data to gain Insights
------------------------------------------
 
 	- Visualizing Geographical Data
 	-Looking for Correlations
 	- Experimenting with Attribute Comibinations
 
-****************************************
 
 # Scikit-Learn Design
----------------------
 Its main design principles are:
 
 Consistency: All objects share consistent and simple interface:
@@ -79,12 +73,10 @@ Composition: Existing building blocks are resused as much as possible
 Sensible defaults: Scikit-Learn provides reasonable default values for most parameters, making it easy to create a baseline working system quickly.
 
 
-****************************************
 
 
 
 ## 6. Prepare the Data for Machine Learning Algorithms
---------------------------------------
 
 	- Data Cleaning
 	- Handling text and categorial Attributes
@@ -94,13 +86,11 @@ Sensible defaults: Scikit-Learn provides reasonable default values for most para
 
 
 ## 7. Select and Train a Model
----------------------------------------
 	- Training and Evaluating on the Training Set
 	- Better Evaluation Using Cross-Validation
 
 
 ## 8. Fine-Tune Your Model
------------------------------------------
 
 	- Grid Search
 	- randomized Search
